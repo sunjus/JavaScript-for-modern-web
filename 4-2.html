@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      /*
+      //indexOf 메서드 사용
+      var input = Number(prompt("숫자를 입력하세요", "입력"));
+
+      if (input > 0) {
+        alert("양수입니다");
+      } else if (input < 0) {
+        alert("음수입니다");
+      } else if (input === 0) {
+        alert("0입니다");
+        console.log(input === 0);
+      }
+      */
+      var input = 0;
+      var inputBegin = prompt("시작 숫자를 입력하세요", "숫자");
+      var inputEnd = prompt("끝 숫자를 입력하세요", "숫자");
+
+      for (var i = Number(inputBegin); i < Number(inputEnd) + 1; i++) {
+        input += i;
+      }
+      alert(input);
+    </script>
+  </head>
+  <body></body>
+</html>
